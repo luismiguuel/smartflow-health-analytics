@@ -1,4 +1,4 @@
-# 🏥 Sistema Inteligente de Triagem Hospitalar com IA
+# 🏥 Sistema Inteligente de Triagem Hospitalar com IA.
 
 ## 📌 Visão Geral
 Este projeto tem como objetivo desenvolver um **sistema de otimização de triagem hospitalar** utilizando **Inteligência Artificial**, capaz de classificar automaticamente o **nível de urgência de pacientes** com base em dados clínicos e sinais vitais.
