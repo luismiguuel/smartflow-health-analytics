@@ -89,4 +89,7 @@ Em sistemas de triagem hospitalar, é fundamental minimizar a chance de que caso
 
 ---
 
-## 📁 Estrutura do Projeto
+## 📁 Como rodar
+Para configurar o ambiente e rodar o projeto, comece criando um ambiente virtual na raiz do diretório com o comando python -m venv venv, ative-o utilizando .\venv\Scripts\activate no Windows ou source venv/bin/activate no Linux/macOS e instale as dependências necessárias através de pip install -r requirements.txt. Com o ambiente preparado, abra dois terminais distintos: no primeiro, acesse a pasta api e inicie o servidor com uvicorn main:app --reload para disponibilizar os serviços de inferência; no segundo, acesse a pasta frontend e execute streamlit run app_web.py para abrir a interface gráfica no seu navegador.
+
+---
