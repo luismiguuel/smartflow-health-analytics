@@ -1,20 +1,23 @@
-# 🏥 SmartFlow: Health Analytics & Triagem Inteligente
+# 🏥 SmartFlow: Health Analytics
 
-O **SmartFlow** é uma solução de suporte à decisão clínica que utiliza Machine Learning para automatizar a classificação de risco (triagem) em unidades de pronto-socorro. Através da análise de sinais vitais e histórico clínico, o sistema classifica o paciente em quatro níveis de urgência (0 a 3), priorizando casos críticos (como hipóxia e instabilidade hemodinâmica) para garantir agilidade no atendimento e segurança assistencial.
-
-O projeto conta com um modelo de **Regressão Logística** de alta performance, uma **API FastAPI** para inferência em tempo real e uma interface amigável desenvolvida em **Streamlit**.
+O SmartFlow é uma solução de inteligência artificial voltada para a área da saúde, projetada para automatizar o processo de triagem hospitalar através da classificação de risco dos pacientes. Utilizando modelos de Machine Learning (Regressão Logística) e processamento de sinais vitais em tempo real, o sistema identifica a gravidade clínica (Níveis 0 a 3) com foco especial na detecção precoce de casos críticos, garantindo que pacientes em estado de urgência recebam prioridade imediata de atendimento.
 
 ---
 
 ## 🚀 Como Rodar o Projeto
 
-Siga os passos abaixo para configurar o ambiente e executar a aplicação.
+### 1. Configurar o Ambiente
+Na raiz do projeto, crie e ative o ambiente virtual para instalar as dependências necessárias:
 
-### 1. Configuração do Ambiente (Virtualenv)
+**Windows:**
+```bash
+python -m venv venv
+.\venv\Scripts\activate
+pip install -r requirements.txt
 
-Na raiz do projeto, você deve criar e ativar o ambiente virtual para garantir que as dependências não conflitem com seu sistema.
-
-**No Linux/macOS:**
+**Linux/macOS:**
 ```bash
 python3 -m venv venv
 source venv/bin/activate
+pip install -r requirements.txt
+
