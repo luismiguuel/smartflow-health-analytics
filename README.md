@@ -38,46 +38,6 @@ O projeto está inserido no eixo temático de **Saúde e Bem-Estar**, explorando
 
 ---
 
-## ⚙️ Metodologia
-
-### 1️⃣ Pré-processamento dos Dados
-- Análise exploratória do dataset (EDA);
-- Tratamento de valores ausentes;
-- Codificação de variáveis categóricas (*encoding*);
-- Separação entre variáveis independentes (features) e variável alvo (target);
-- Divisão em conjuntos de treino e teste.
-
----
-
-### 2️⃣ Modelagem
-Foram avaliados algoritmos de classificação, com foco inicial em:
-
-- **Árvore de Decisão**
-  - Alta interpretabilidade;
-  - Fácil visualização das regras de decisão.
-
-- **Random Forest**
-  - Melhor desempenho em dados tabulares;
-  - Redução de overfitting;
-  - Capacidade de identificar a importância das variáveis.
-
-Esses modelos foram escolhidos por equilibrar **performance e interpretabilidade**, fator essencial em aplicações na área da saúde.
-
----
-
-### 3️⃣ Avaliação dos Modelos
-Os modelos são avaliados utilizando as seguintes métricas:
-
-- **Acurácia**
-- **Precisão**
-- **Recall (Sensibilidade)** — métrica prioritária para classes graves
-- **F1-Score**
-- **Matriz de Confusão**
-
-📌 **Justificativa do Recall:**  
-Em sistemas de triagem hospitalar, é fundamental minimizar a chance de que casos graves sejam classificados como não urgentes.
-
----
 
 ## 🧪 Tecnologias Utilizadas
 - Python  
